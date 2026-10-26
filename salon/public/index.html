@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>K S Men's Salon | Haircuts, Beard Styling & Grooming</title>
+  <meta name="description" content="K S Men's Salon – haircuts from ₹99, fades, kids cuts, beard styling, hair colour, facials, hair spa, keratin and combo offers for men in Gudiyatham. Walk-ins welcome. Call 9159708739.">
+  <meta name="theme-color" content="#1f1f21">
+  <script>
+    // Apply the visitor's saved light/dark choice before the page draws (no flash).
+    try { if (localStorage.getItem("ks_theme") === "light") document.documentElement.dataset.theme = "light"; } catch (e) {}
+  </script>  <link rel="icon" href="assets/logo-round.png">
+  <link rel="apple-touch-icon" href="assets/logo-round.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&family=Rye&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20261025225826">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="top">
+    <div class="container nav">
+      <a href="#top" class="brand" aria-label="K S Men's Salon home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">K S MEN'S<small>SALON</small></span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Main">
+        <a href="#offers">Offers</a>
+        <a href="#services">Services</a>
+        <a href="#combos">Combos</a>
+        <a href="#hours">Timings</a>
+        <a href="#location">Location</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+        <a href="tel:+919159708739" class="btn btn-gold btn-sm nav-cta">Call Us</a>
+      </nav>
+      <div class="nav-right">
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+        <button class="theme-btn" id="themeBtn" type="button" aria-label="Switch to light mode" title="Light / dark mode">
+          <svg class="ic-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>
+          <svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.6A8.5 8.5 0 0 1 9.4 3.5a8.5 8.5 0 1 0 11.1 11.1z"/></svg>
+        </button>
+        <div class="owner-menu">          <button class="dots-btn" id="dotsBtn" aria-label="More options" aria-haspopup="menu" aria-expanded="false" aria-controls="dotsMenu">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="12" cy="19" r="1.8"/></svg>
+          </button>
+          <div class="dots-menu" id="dotsMenu" role="menu" hidden>
+            <p class="dots-owner" id="ownerLabel" hidden>Owner mode</p>
+            <button role="menuitem" data-action="login">Owner Login</button>
+            <button role="menuitem" data-action="add" hidden>+ Add Picture</button>
+            <button role="menuitem" data-action="edit-services" hidden>✎ Edit Services</button>
+            <button role="menuitem" data-action="edit-combos" hidden>✎ Edit Combos</button>
+            <button role="menuitem" data-action="logout" class="menu-logout" hidden>Log Out</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Style. Groom. Confidence.</p>
+          <p class="hero-tag">Premium grooming for modern men</p>
+          <h1>Look sharp.<br><em>Feel sharper.</em></h1>
+          <p class="lead">Precision haircuts, clean fades, sculpted beards and relaxing grooming rituals — crafted for men who care about the details.</p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-gold">View Price List</a>
+            <a href="#hours" class="btn btn-ghost">Opening Hours</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>45+</strong><span>Grooming services</span></li>
+            <li><strong>₹99</strong><span>Haircuts from</span></li>
+            <li><strong>7 days</strong><span>Open every day</span></li>
+          </ul>
+        </div>
+        <div class="hero-logo reveal">
+          <div class="disc"><img src="assets/logo-round.png" alt="K S Men's Salon logo – crossed scissors and comb" width="720" height="720"></div>
+        </div>
+      </div>
+      <a href="#services" class="scroll-hint" aria-label="Scroll to services"><span></span></a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="strip" aria-hidden="true">
+      <div class="strip-track">
+        <span>Haircut</span><i>✦</i><span>Fade Cut</span><i>✦</i><span>Kids Cuts</span><i>✦</i><span>Italian Beard</span><i>✦</i><span>Hair Colour</span><i>✦</i><span>Highlights</span><i>✦</i><span>Facial</span><i>✦</i><span>De-Tan</span><i>✦</i><span>Head Massage</span><i>✦</i><span>Hair Spa</span><i>✦</i><span>Keratin &amp; Botox</span><i>✦</i><span>Combo Offers</span><i>✦</i>
+        <span>Haircut</span><i>✦</i><span>Fade Cut</span><i>✦</i><span>Kids Cuts</span><i>✦</i><span>Italian Beard</span><i>✦</i><span>Hair Colour</span><i>✦</i><span>Highlights</span><i>✦</i><span>Facial</span><i>✦</i><span>De-Tan</span><i>✦</i><span>Head Massage</span><i>✦</i><span>Hair Spa</span><i>✦</i><span>Keratin &amp; Botox</span><i>✦</i><span>Combo Offers</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ============ FESTIVAL OFFERS (posted by the owner) ============ -->
+    <section class="section offers" id="offers">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Limited Time</p>
+          <h2>Festival Offers</h2>
+          <p class="muted">Special deals for the season — visit us before they're gone.</p>
+        </div>
+        <div class="offers-grid" id="offersGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT: THE K S EXPERIENCE ============ -->
+    <section class="section section-alt about" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">About Us</p>
+          <h2>The K S Experience</h2>
+          <p class="muted">More than just a haircut. At K S Men's Salon in Santhapet Bazaar, every man walks out looking sharp and feeling confident.</p>
+        </div>
+
+        <ul class="promise">
+          <li class="reveal">
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.1 15.9M14.5 14.5 20 20M8.1 8.1 12 12"/></svg></span>
+            <h3>Expert Stylists</h3>
+            <p>Skilled hands for classic cuts, fades and beard styling.</p>
+          </li>
+          <li class="reveal">
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10Z"/><path d="M2 21c0-3 1.9-5.4 5.1-6C9.5 14.5 12 13 13 12"/></svg></span>
+            <h3>Premium Products</h3>
+            <p>Quality shampoos, colours and skincare that are kind to you.</p>
+          </li>
+          <li class="reveal">
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6l-8-3z"/><path d="m9 12 2 2 4-4"/></svg></span>
+            <h3>Hygienic &amp; Safe</h3>
+            <p>Clean tools, fresh towels and a spotless space every day.</p>
+          </li>
+          <li class="reveal">
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 10v11"/><path d="M15 5.9 14 10h5.8a2 2 0 0 1 2 2.3l-1.4 7A2 2 0 0 1 18.4 21H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h2.8a2 2 0 0 0 1.8-1.1L12 2a3.1 3.1 0 0 1 3 3.9z"/></svg></span>
+            <h3>100% Satisfaction</h3>
+            <p>We don't stop until you love what you see in the mirror.</p>
+          </li>
+          <li class="reveal">
+            <span class="promise-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 22c4 0 7-2.7 7-6.5 0-3-2-5-3.5-6.5-.5 2-1.6 3-3 3.5.5-3-1-6.5-3.5-8.5 0 3.5-4 6.2-4 11.5C5 19.3 8 22 12 22z"/></svg></span>
+            <h3>Relaxing Ambience</h3>
+            <p>Sit back, unwind and enjoy some time just for you.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Price List</p>
+          <h2>Our Services</h2>
+          <p class="muted">Honest prices, no surprises. Pick a category to see what we offer.</p>
+          <button type="button" class="btn btn-gold btn-sm owner-edit" data-edit="services" hidden>✎ Edit Services</button>
+        </div>
+        <div class="tabs reveal" role="tablist" id="serviceTabs"></div>
+        <div class="price-grid" id="priceGrid" role="tabpanel" aria-live="polite"></div>
+        <p class="note">* Prices may vary slightly based on hair length and product used. Ask us for a quote.</p>
+      </div>
+    </section>
+
+    <!-- ============ COMBOS ============ -->
+    <section class="section section-alt" id="combos">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Save More</p>
+          <h2>Combo Packages</h2>
+          <p class="muted">Bundle your favourite services and save. Perfect for a full refresh.</p>
+          <button type="button" class="btn btn-gold btn-sm owner-edit" data-edit="combos" hidden>✎ Edit Combos</button>
+        </div>
+        <p class="swipe-hint" aria-hidden="true">Swipe to see all combos <span>→</span></p>
+        <div class="combo-grid" id="comboGrid"></div>
+        <div class="combo-dots" id="comboDots" aria-label="Choose a combo"></div>
+      </div>
+    </section>
+
+    <!-- ============ HOURS ============ -->
+    <section class="section" id="hours">
+      <div class="container hours-wrap">
+        <div class="reveal">
+          <p class="eyebrow">Visit Us</p>
+          <h2>Opening Hours</h2>
+          <p class="muted">No appointment needed — just walk in any time during these hours.</p>
+          <p class="open-status" id="openStatus"></p>
+        </div>
+        <table class="hours-table reveal" id="hoursTable"><tbody></tbody></table>
+      </div>
+    </section>
+
+    <!-- ============ LOCATION ============ -->
+    <section class="section section-alt" id="location">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Find Us</p>
+          <h2>Our Location</h2>
+        </div>
+        <div class="location-wrap">
+          <div class="map-frame reveal">
+            <iframe
+              src="https://www.google.com/maps?q=K+S+Men%E2%80%99s+salon+Gudiyatham&amp;ll=12.9418498,78.8647766&amp;z=17&amp;output=embed"
+              title="Map showing K S Men's Salon, Santhapet Bazaar, opposite Senthil Jewellers, Gudiyatham"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+          <div class="location-card reveal">
+            <figure class="shop-photo">
+              <img src="assets/shop-building.jpg" alt="K S Men's Salon shop front with the black and gold signboard, Santhapet Bazaar, Gudiyatham" width="873" height="1039" loading="lazy" decoding="async">
+              <figcaption>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+                Look for this board
+              </figcaption>
+            </figure>
+            <h3>K S Men's Salon</h3>
+            <address>Santhapet Bazaar,<br>Opposite to Senthil Jewellers,<br>Gudiyatham, Vellore – 632602</address>
+            <p class="muted small">Open every day · 7:30 AM – 9:00 PM</p>
+            <div class="location-actions">
+              <a class="btn btn-gold" href="https://www.google.com/maps/dir/?api=1&amp;destination=K+S+Men%E2%80%99s+salon&amp;destination_place_id=ChIJLcTOOCptrTsReqn9eJAl9zU&amp;travelmode=driving" target="_blank" rel="noopener">Get Directions</a>
+              <a class="btn btn-ghost" href="tel:+919159708739">Call 91597 08739</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GOOGLE REVIEWS ============ -->
+    <section class="section" id="reviews">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Loved Your Look?</p>
+          <h2>Review Us on Google</h2>
+          <p class="muted">Your review helps more people in Gudiyatham find a great barber. It only takes a minute.</p>
+        </div>
+
+        <div class="greview reveal">
+          <div class="greview-main">
+            <div class="g-brand">
+              <svg class="g-logo" viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.2-.1-2.3-.4-3.5z"/><path fill="#FF3D00" d="m6.3 14.7 6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2c-2 1.5-4.5 2.4-7.2 2.4-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.2-.1-2.3-.4-3.5z"/></svg>
+              <div>
+                <strong>K S Men's Salon</strong>
+                <span class="muted small">Santhapet Bazaar, Gudiyatham</span>
+              </div>
+            </div>
+
+            <p class="greview-ask">How was your visit? Tap a star:</p>
+            <div class="g-stars" role="group" aria-label="Rate us on Google">
+              <a href="https://search.google.com/local/writereview?placeid=ChIJLcTOOCptrTsReqn9eJAl9zU" target="_blank" rel="noopener" aria-label="1 star on Google"></a>
+              <a href="https://search.google.com/local/writereview?placeid=ChIJLcTOOCptrTsReqn9eJAl9zU" target="_blank" rel="noopener" aria-label="2 stars on Google"></a>
+              <a href="https://search.google.com/local/writereview?placeid=ChIJLcTOOCptrTsReqn9eJAl9zU" target="_blank" rel="noopener" aria-label="3 stars on Google"></a>
+              <a href="https://search.google.com/local/writereview?placeid=ChIJLcTOOCptrTsReqn9eJAl9zU" target="_blank" rel="noopener" aria-label="4 stars on Google"></a>
+              <a href="https://search.google.com/local/writereview?placeid=ChIJLcTOOCptrTsReqn9eJAl9zU" target="_blank" rel="noopener" aria-label="5 stars on Google"></a>
+            </div>
+            <p class="muted small g-note">Opens Google so you can post your rating and review.</p>
+
+            <div class="greview-actions">
+              <a class="btn btn-gold" href="https://search.google.com/local/writereview?placeid=ChIJLcTOOCptrTsReqn9eJAl9zU" target="_blank" rel="noopener">Rate Us on Google</a>
+              <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=K+S+Men%E2%80%99s+salon&amp;query_place_id=ChIJLcTOOCptrTsReqn9eJAl9zU" target="_blank" rel="noopener">Read Our Reviews</a>
+            </div>
+          </div>
+
+          <div class="greview-qr">
+            <div class="qr-box" id="reviewQr" aria-label="QR code to review K S Men's Salon on Google" role="img"></div>
+            <p><strong>In the salon?</strong><br><span class="muted small">Scan with your phone camera to leave a review.</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============ CTA / CONTACT ============ -->
+    <section class="section cta" id="contact">
+      <div class="container cta-inner reveal">
+        <img src="assets/logo-round.png" alt="" class="cta-logo" width="720" height="720">
+        <h2>Ready for a fresh look?</h2>
+        <p class="muted">Call, WhatsApp or email us — we're happy to help.</p>
+        <div class="cta-actions">
+          <a class="btn btn-gold" href="tel:+919159708739">Call 91597 08739</a>
+          <a class="btn btn-ghost" href="https://wa.me/919159708739?text=Hi%20K%20S%20Men%27s%20Salon" target="_blank" rel="noopener">WhatsApp Us</a>
+          <a class="btn btn-ghost" href="mailto:Mohankumaran280@gmail.com">Email Us</a>
+        </div>
+
+        <a class="insta-card" href="https://www.instagram.com/k_s_mens_salon/" target="_blank" rel="noopener" aria-label="Open K S Men's Salon on Instagram (@k_s_mens_salon)">
+          <img src="assets/instagram-qr.png" alt="Instagram QR code for @k_s_mens_salon" width="420" height="420" loading="lazy">
+          <span class="insta-text">
+            <span class="insta-label">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" class="dot"/></svg>
+              Follow us on Instagram
+            </span>
+            <strong>@k_s_mens_salon</strong>
+            <span class="muted small">Tap to follow us and see our latest styles.</span>
+          </span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <a href="#top" class="brand">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">K S MEN'S<small>SALON</small></span>
+        </a>
+        <p class="muted small">Premium grooming for the modern man.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="#services">Services</a>
+        <a href="#combos">Combos</a>
+        <a href="#reviews">Reviews</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="tel:+919159708739">+91 91597 08739</a>
+        <a href="mailto:Mohankumaran280@gmail.com">Mohankumaran280@gmail.com</a>
+        <a href="https://www.instagram.com/k_s_mens_salon/" target="_blank" rel="noopener">Instagram · @k_s_mens_salon</a>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=K+S+Men%E2%80%99s+salon&amp;query_place_id=ChIJLcTOOCptrTsReqn9eJAl9zU" target="_blank" rel="noopener" class="footer-address"><span>Santhapet Bazaar,</span> <span>Opp. Senthil Jewellers,</span> <span>Gudiyatham, Vellore – 632602</span></a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p class="small muted">© <span id="year"></span> K S Men's Salon. All rights reserved.</p>
+      <a href="#top" class="small">Back to top ↑</a>
+    </div>
+    <div class="container credit">
+      <p class="small">Designed &amp; developed by
+        <a class="credit-link" href="https://mozhitech.vercel.app" target="_blank" rel="noopener" aria-label="MozhiTech Solutions – opens their website">
+          <strong>MozhiTech Solutions</strong>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+        </a>
+      </p>
+      <p class="credit-hint">Want a website like this? Tap <span>MozhiTech Solutions</span> to visit</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a class="fab" href="https://wa.me/919159708739?text=Hi%20K%20S%20Men%27s%20Salon" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8.2 8.2 0 0 1-4.1-3.6c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.5 13.5 0 0 0 5.2 4.6c1.9.8 2.7.9 3.6.8a3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.2-.3-.3-.6-.4zM12 21.8a9.9 9.9 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.8 9.8 0 1 1 8.3 4.6zM20.5 3.5A11.8 11.8 0 0 0 2 17.7L.4 23.6l6-1.6a11.8 11.8 0 0 0 5.6 1.4 11.8 11.8 0 0 0 8.5-20z"/></svg>
+  </a>
+
+  <!-- Mobile sticky action bar -->
+  <div class="mobile-bar">
+    <a href="tel:+919159708739">
+      <svg viewBox="0 0 24 24" aria-hidden="true" class="mb-ico-stroke"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+      Call
+    </a>
+    <a href="https://wa.me/919159708739" target="_blank" rel="noopener" class="mb-primary">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1a8.2 8.2 0 0 1-4.1-3.6c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.5 13.5 0 0 0 5.2 4.6c1.9.8 2.7.9 3.6.8a3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.2-.3-.3-.6-.4zM12 21.8a9.9 9.9 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.8 9.8 0 1 1 8.3 4.6zM20.5 3.5A11.8 11.8 0 0 0 2 17.7L.4 23.6l6-1.6a11.8 11.8 0 0 0 5.6 1.4 11.8 11.8 0 0 0 8.5-20z"/></svg>
+      WhatsApp
+    </a>
+  </div>
+
+  <!-- ============ OWNER TOOLS ============ -->
+
+  <dialog class="modal" id="loginDlg" aria-labelledby="loginTitle">
+    <form method="dialog" class="modal-card" id="loginForm" novalidate>
+      <button type="button" class="modal-x" data-close aria-label="Close">×</button>
+      <span class="modal-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span>
+      <h3 id="loginTitle">Owner Login</h3>
+      <p class="muted small">Only the salon owner can sign in here.</p>
+      <label class="fld">Email
+        <input type="email" name="email" autocomplete="username" required>
+      </label>
+      <label class="fld">Password
+        <span class="pw-wrap">
+          <input type="password" name="password" autocomplete="current-password" required>
+          <button type="button" class="pw-toggle" aria-label="Show password">Show</button>
+        </span>
+      </label>
+      <p class="modal-error" role="alert"></p>
+      <button type="submit" class="btn btn-gold btn-block">Continue</button>
+    </form>
+
+    <form method="dialog" class="modal-card" id="otpForm" novalidate hidden>
+      <button type="button" class="modal-x" data-close aria-label="Close">×</button>
+      <span class="modal-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></span>
+      <h3>Check your email</h3>
+      <p class="muted small">We sent a 6-digit code to <strong id="otpSentTo"></strong>. It expires in 5 minutes.</p>
+      <label class="fld">Login code
+        <input type="text" name="code" class="otp-input" inputmode="numeric" autocomplete="one-time-code" pattern="\d{6}" maxlength="6" placeholder="••••••" required>
+      </label>
+      <p class="modal-error" role="alert"></p>
+      <button type="submit" class="btn btn-gold btn-block">Verify &amp; Log In</button>
+      <div class="otp-links">
+        <button type="button" class="link-btn" id="otpBack">← Back</button>
+        <button type="button" class="link-btn" id="otpResend">Resend code</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog class="modal" id="offerDlg" aria-labelledby="offerTitle">
+    <form method="dialog" class="modal-card" id="offerForm" novalidate>
+      <button type="button" class="modal-x" data-close aria-label="Close">×</button>
+      <h3 id="offerTitle">Post a Festival Offer</h3>
+      <p class="muted small">Everyone visiting the website will see this under Festival Offers.</p>
+      <label class="drop" id="dropZone">
+        <input type="file" name="image" accept="image/*" required>
+        <img alt="" id="offerPreview" hidden>
+        <span class="drop-hint" id="dropHint">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>
+          Tap to choose a picture
+        </span>
+      </label>
+      <label class="fld"><span>Title <span class="opt">(optional)</span></span>
+        <input type="text" name="title" maxlength="80" placeholder="e.g. Diwali Special – 20% off">
+      </label>
+      <label class="fld"><span>Details <span class="opt">(optional)</span></span>
+        <textarea name="caption" rows="2" maxlength="300" placeholder="e.g. On all combos, this week only"></textarea>
+      </label>
+      <label class="fld"><span>Show until <span class="opt">(optional – hides automatically after this date)</span></span>
+        <input type="date" name="expires">
+      </label>
+      <p class="modal-error" role="alert"></p>
+      <button type="submit" class="btn btn-gold btn-block">Post Offer</button>
+    </form>
+  </dialog>
+
+  <dialog class="modal editor" id="menuEditDlg" aria-labelledby="editorTitle">
+    <div class="editor-card">
+      <header class="editor-head">
+        <h3 id="editorTitle">Edit</h3>
+        <button type="button" class="modal-x" id="editorClose" aria-label="Close">×</button>
+      </header>
+      <div class="editor-tabs" id="editorTabs"></div>
+      <div class="editor-body" id="editorBody"></div>
+      <footer class="editor-foot">
+        <p class="editor-status" id="editorStatus" role="status"></p>
+        <button type="button" class="btn btn-ghost btn-sm" id="editorCancel">Cancel</button>
+        <button type="button" class="btn btn-gold btn-sm" id="editorSave">Save changes</button>
+      </footer>
+      <input type="file" id="editorPhotoInput" accept="image/*" hidden>
+    </div>
+  </dialog>
+  <dialog class="modal lightbox" id="viewDlg" aria-label="Offer picture">
+    <div class="lightbox-card">
+      <button type="button" class="modal-x" data-close aria-label="Close">×</button>
+      <img alt="" id="viewImg">
+      <p id="viewCap"></p>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+  <script src="script.js?v=20261025225826"></script>
+  <script src="admin.js?v=20261025225826"></script>
+</body>
+</html>
